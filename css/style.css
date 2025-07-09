@@ -1850,6 +1850,11 @@ body {
   color:#ffcc33;
 }
 
+.btn:focus, .btn:active {
+   outline: none !important;
+   box-shadow: none !important;
+}
+
 .case-study:last-child {
   margin-bottom: 0;
 }
@@ -1944,5 +1949,32 @@ body {
 
 #colorlib-aside::-webkit-scrollbar-thumb:hover {
   background-color: #777e91;
+}
+
+a.btn.download[href$='.pdf'], a.btn.view[href$='.pdf'] {
+    background-color: #1976d2;
+    color: #fff;
+}
+
+a.btn.view[href$='.pdf'] {
+    background-color: #1f2c3a;
+    color: #F8F8FF;
+}
+
+a.btn.download[href$='.pdf']:hover, a.btn.view[href$='.pdf']:hover {
+    color: #ffcc33;
+}
+
+a.btn.download[href$='.pdf']:focus, a.btn.download[href$='.pdf']:active,
+a.btn.view[href$='.pdf']:focus, a.btn.view[href$='.pdf']:active {
+    background-color: #1976d2;
+    color: #fff;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+a.btn.view[href$='.pdf']:focus, a.btn.view[href$='.pdf']:active {
+    background-color: #1f2c3a;
+    color: #F8F8FF;
 }
 
