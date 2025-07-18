@@ -413,3 +413,23 @@ document.addEventListener("DOMContentLoaded", () => {
         observer.observe(el);
     });
 });
+
+
+// View Portfolio
+
+
+document.querySelectorAll('.scroll-link').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('href').substring(1);
+      const targetEl = document.getElementById(targetId);
+      const offsetTop = targetEl.getBoundingClientRect().top + window.pageYOffset + 450;
+
+      window.scrollTo({
+        top: offsetTop,
+        behavior: 'smooth'
+      });
+    });
+  });
+
+

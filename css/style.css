@@ -1652,7 +1652,7 @@ section .heading-meta {
   margin: 40px 0;
   font-family: "Quicksand", Arial, sans-serif;
   font-weight: 400;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1.6;
   color: rgba(0, 0, 0, 0.7);
 }
@@ -1714,7 +1714,7 @@ section .heading-meta {
 }
 
 .timeline-date {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -1726,7 +1726,7 @@ section .heading-meta {
 
 .timeline-content p {
   margin: 2px 0;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 
@@ -1757,7 +1757,7 @@ section .heading-meta {
 .timeline-marker {
   position: absolute;
   left: -10px;
-  top: 6px;
+  top: 9px;
   width: 14px;
   height: 14px;
   background-color: rgba(0, 0, 0, 0.7);
@@ -1767,7 +1767,7 @@ section .heading-meta {
 }
 
 .timeline-date {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -1775,12 +1775,12 @@ section .heading-meta {
 .timeline-content h3 {
   font-size: 18px;
   margin: 5px 0;
-  color: #333;
+  color: rgba(0, 0, 0, 0.7);
 }
 
 .timeline-content p {
   margin: 3px 0;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 
@@ -1978,3 +1978,7 @@ a.btn.view[href$='.pdf']:focus, a.btn.view[href$='.pdf']:active {
     color: #F8F8FF;
 }
 
+
+html {
+  scroll-behavior: smooth;
+}
